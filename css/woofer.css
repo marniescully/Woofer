@@ -1,0 +1,284 @@
+/* Main Parts of Template */
+  html {
+    background: url('/images/paws.jpeg');
+    font-size: 16px;
+    font-family: "Tahoma", "Helvetica Neue", "Lucida Grande", "Segoe UI",  Arial, Helvetica, Verdana, sans-serif;
+    margin: 5px auto;
+    color: #696969;
+    width: 90%; 
+  }
+
+  header, section, footer {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0px auto;
+    border-right: 10px solid #000;
+    width: 100%;
+  }
+
+  header {
+    display: table;
+    border-bottom : 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  section {
+    min-height: 450px;
+    border-top: 0px;
+    padding: 20px 10px;
+  }
+
+  section nav {
+    border: 1px;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    border-top-color: #000;
+  }
+
+  footer {
+    background-color: #E01935; 
+    border-bottom: 10px solid #000;
+    color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-height: 15px;
+    font-size: .85em;
+  }
+  /* End of Main Sections of Template*/
+
+  /* Header Details */
+  header h1  {
+    font-size: 3.0em;
+  }
+
+  header img {
+    margin-bottom: -55px;
+  }
+
+  header h1, header nav, header p {
+    display: table-cell;
+    border-bottom : 8px dashed #E01935;
+    padding-bottom: 10px;
+  }
+
+  header nav, header p {
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    word-spacing: .25em;
+  }
+  /* End of Header Details */
+
+  /* Columns within Section */
+  .col {
+    display: table-cell;
+    width: 45%;
+    padding: 10px 15px 0px 15px;
+  }
+
+  .single_col, #Woofs{
+    background-color: #cccccc;
+    padding: 5px 10px;
+    border:1px solid #000;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px #888888;
+  }
+
+  .single_col {
+     margin: 10px 200px;
+  }
+  
+  .col h2 {
+      margin-bottom: -10px;
+  }
+
+  .col form {
+    margin-top: 10px;
+  }
+
+  #bio img {
+    border: 1px solid;
+  }
+  /* End of Columns within Section */
+
+  /* Misc. Styles */
+  h1, h2, h3 {
+    margin: 0px;
+    padding: 10px 0px;
+  }
+
+  h1, h2 {
+    color: #000;
+  }
+
+  .error {
+    color: #E01935;
+    font-size: smaller;
+    font-style: italic;
+  }
+
+  .label {
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  /* End of Misc. Styles */
+
+  /* Links */
+  section nav a {
+    font-size: 1.25em;
+    padding: 0px 10px;
+  }
+
+  a:link, a:visited {
+    color: #E01935;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #696969;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: #696969;
+  }
+
+  a.selected {
+    font-size: 1.75em;
+    color: #000;
+    text-decoration: none;
+  }
+  /* End of Links */
+
+  /* Forms */
+  form h3 {
+    color: #E01935;
+  }
+  textarea {
+    font-size: 1.1em;
+    height: 100px;
+    border: 3px solid #cccccc;
+    padding: 0px;
+    width: 90%;
+  }
+
+  input[type='text'] {
+    width: 60%;
+    font-size: 1em;
+  }
+
+  input[type='password'] {
+    width: 60%;
+    font-size: 1em;
+  }
+
+  input[type='submit'], input[type='file'] {
+    font-size: 1.25em;
+  }
+  /* End of Forms */
+
+  /* Articles - Used on Lists of Woofs */
+  article {
+    padding: 5px 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    min-height: 125px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px #888888;
+  }
+
+  article img {
+    float: right;
+    margin: 10px;
+    margin-left: 50px;
+    width: 110px;
+    height: 110px;
+    border: 1px solid;
+  }
+
+  article h1 {
+    font-size: 1.25em;
+    padding-left: 0px;
+  }
+  
+  article p {
+    margin: -5px 0px 5px 0px;
+    word-wrap:break-word;
+  }
+
+  time {
+    font-size: smaller;
+    font-style: italic;
+  }
+  /* End of Articles */
+
+  /* Mouseover graphics */
+  .bone {
+    margin-right: 5px;
+    width: 110px;
+    display: table-cell;
+  }
+
+  #SignUp {
+    width: 239px;
+    height: 146px;
+    display: table-cell;
+  }
+  
+  #bone_buttons {
+  	position:absolute;
+  	top:30px;
+  	right:500px;
+	background-color: #FFFFFF;
+  }
+	
+  .profile_rule {
+    background-image: url('/images/redbones.png');
+    background-repeat: repeat-x;
+    margin: 25px auto;
+    min-height: 40px;
+  }
+
+  span.sign_up_swap, span.woof_swap, span.profile_swap, span.woofs_swap, span.woofers_swap {
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+  span.woof_swap, span.profile_swap, span.woofs_swap, span.woofers_swap {
+    width: 110px;
+    height: 67px;
+  }
+
+  span.sign_up_swap {
+    width: 239px;
+    height: 146px;
+  }
+
+  span.sign_up_swap:hover img, span.woof_swap:hover img, span.profile_swap:hover img, span.woofs_swap:hover img, span.woofers_swap:hover img   {
+    visibility: hidden;
+  }
+  span.sign_up_swap:hover {
+    background-image: url('/images/sign_up_hover.png'); 
+  }
+
+  span.woof_swap:hover {
+    background-image: url('/images/woof_hover.png');
+  }
+
+  span.profile_swap:hover {
+    background-image: url('/images/profile_hover.png'); 
+  }
+
+  span.woofs_swap:hover {
+    background-image: url('/images/woofs_hover.png');
+  }
+
+  span.woofers_swap:hover {
+    background-image: url('/images/woofers_hover.png'); 
+  }
